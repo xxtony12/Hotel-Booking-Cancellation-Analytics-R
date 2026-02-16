@@ -29,7 +29,7 @@ The dataset contains hotel booking records including:
 
 ## Key Findings
 
-- Longer lead times were associated with higher cancellation risk.
+- Bookings made further in advance were significantly more likely to cancel, suggesting early reservations carry higher revenue volatility.
 - City hotels exhibited higher variability in lead time among canceled bookings.
 - Deposit type and market segment significantly influenced cancellation probability.
 - Final model achieved ~80% classification accuracy.
@@ -44,3 +44,10 @@ Insights from this model can help:
 - Identify high-risk bookings earlier
 - Optimize overbooking strategies
 - Adjust deposit policies by segment
+
+# Model Performance
+- Model achieved ~80% accuracy on test data.
+
+- AUC indicated strong classification ability.
+
+- Lead time and deposit type were the strongest predictors of cancellation.
